@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+
+</head>
+<
+<body>
+
+    <div class="container">
+        <input type="checkbox" id="btnd" class="btnd">
+        <label for="btnd"></label>
+        <div class="content first-content">
+            <div class="first-colum">
+                <h2 class="title title-welcome">create account</h2>
+                <p class="descripition descripition-esq">To join us just be registered</p>
+                <p class="descripition descripition-esq">Please register with your email and password</p>
+                <br />
+                <button type="submit" onclick="register()"; return false class="btn btn-primary">sing up</button>
+            </div>
+            <div class="second-colum">
+                <h2 class="title title-second">Welcome Back!</h2>
+                <div class="social-media">
+                    <ul class="list-social-media">
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-facebook-f"></i>        
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-google-plus-g"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-linkedin-in"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <p class="description description-second">or use your email for login:</p>
+                <form class="form">
+                    <input type="email" id="email" placeholder="Email">
+                    <br />
+                    <input type="password" id="pass" placeholder="Password" />
+                    <br />
+                    <button type="submit" class="btn btndois" onclick="logar() ; return false">sign in</button>
+                </form>
+
+            </div>
+
+
+
+
+        </div>
+
+
+    </div>
+
+    <script src="index.js"> </script> 
+</body>
+</html>
